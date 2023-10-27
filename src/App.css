@@ -27,7 +27,7 @@ body {
   padding: 0;
   font-family: Arial, sans-serif;
   background-color: #f0f0f0;
-  /*background-image: url('F:\casetools lab\doctor-appointment-system\public\b4.jpg');*/ /* Replace with the actual path to your image */
+ 
   background-size: cover; /* Adjust the image size to cover the entire viewport */
   background-repeat: no-repeat;
   background-attachment: fixed; 
@@ -230,7 +230,7 @@ input:focus {
     background-position: center;
     background-size: contain;
     background-repeat: no-repeat;
-    background-image: url('C:\Users\ADMIN\Downloads\icons8-facebook-50.png');
+   
 }
 /*about*/
 .about-1
@@ -334,7 +334,7 @@ input:focus {
   /* Styling for the search box */
   
   .search{
-    /*background-image:url('F:\casetools lab\doctor-appointment-system\public\docsearchbg.jpg') ;*/
+    
     
     background-repeat: no-repeat;
     /*background-color: #f0f0f0;*/
