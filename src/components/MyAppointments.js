@@ -13,7 +13,7 @@ const MyAppointments = () => {
     // Fetch the patient's appointments from the server
     const token = localStorage.getItem('token');
     if (token) {
-      fetch('/myAppointments', {
+      fetch('https://newback-3097.onrender.com/myAppointments', {
         headers: {
           Authorization: `Bearer ${token}`,
         },
@@ -35,7 +35,7 @@ const MyAppointments = () => {
 
   const fetchUserDetails = (token) => {
     if (token) {
-      fetch('/getUserDetails', {
+      fetch('https://newback-3097.onrender.com/getUserDetails', {
         headers: {
           Authorization: `Bearer ${token}`,
         },
