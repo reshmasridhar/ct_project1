@@ -11,7 +11,7 @@ const MyBooking = () => {
     // Fetch appointments for the patient
     const token = localStorage.getItem('token');
     if (token) {
-      fetch('/bookings?email=${email}', {
+      fetch('https://newback-3097.onrender.com/bookings?email=${email}', {
         headers: {
           Authorization: `Bearer ${token}`,
         },
@@ -32,7 +32,7 @@ const MyBooking = () => {
     // Fetch user details from the server using the JWT token
     const token = localStorage.getItem('token');
     if (token) {
-      fetch('/getUserDetails', {
+      fetch('https://newback-3097.onrender.com/getUserDetails', {
         headers: {
           Authorization: `Bearer ${token}`,
         },
